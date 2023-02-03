@@ -58,7 +58,7 @@ const ComingSoon = () => {
                         <div className="col-xl-6 col-lg-8">
                             <div className="content">
                             <h2 className="title">LeBonBerger Bientôt!</h2>
-                            <p>LeBonBerger sera bientôt Disponible pour un meilleur suivi des âmes gagnées au Christ.</p>
+                            <p>LeBonBerger sera bientôt Disponible pour un meilleur Encadrement des âmes gagnées à Christ.</p>
                             <Countdown date={SetCountdownTime} zeroPadTime={3} renderer={CountDownRender}></Countdown>
                             <form action="mailto:hegeldirkk@gmail.com" method="post" enctype="text/plain">
                                 <div className="input-group">
