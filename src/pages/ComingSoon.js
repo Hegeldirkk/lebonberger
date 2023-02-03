@@ -60,7 +60,7 @@ const ComingSoon = () => {
                             <h2 className="title">LeBonBerger Bientôt!</h2>
                             <p>LeBonBerger sera bientôt Disponible pour un meilleur Encadrement des âmes gagnées à Christ.</p>
                             <Countdown date={SetCountdownTime} zeroPadTime={3} renderer={CountDownRender}></Countdown>
-                            <form action="mailto:hegeldirkk@gmail.com" method="post" enctype="text/plain">
+                            <form action="mailto:rufingbogbo@gmail.com" method="post" enctype="text/plain">
                                 <div className="input-group">
                                     <span className="mail-icon"><FaEnvelopeOpen /> </span>
                                     <input type="email" className="form-control" placeholder="Entrer votre adresse email" />
