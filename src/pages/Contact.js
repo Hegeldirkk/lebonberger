@@ -13,7 +13,7 @@ import ContactLocation from '../component/contact/ContactLocation';
 const Contact = () => {
     return (
         <>
-            <SEO title="Blog Grid" />
+            <SEO title="Nous Contacter" />
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
@@ -27,19 +27,19 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-xl-5 col-lg-6">
                             <div className="contact-form-box shadow-box mb--30">
-                                <h3 className="title">Get a free Abstrak quote now</h3>
+                                <h3 className="title">Souhaitez utiliser LeBonBerger</h3>
                                 <FormTwo />
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-6 offset-xl-1">
                             <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
-                                <h4 className="title">Phone</h4>
-                                <p>Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm</p>
-                                <h4 className="phone-number"><a href="tel:1234567890">(123) 456 7890</a></h4>
+                                <h4 className="title">Telephone</h4>
+                                <p>Nous sommes ouvert du lundi au vendredi de 08h00 à 17h00</p>
+                                <h4 className="phone-number"><a href="tel:000000000000">+225 000000000</a></h4>
                             </div>
                             <div className="contact-info mb--30">
                                 <h4 className="title">Email</h4>
-                                <p>Our support team will get back to in 48-h during standard business hours.</p>
+                                <p>Notre équipe d'assistance vous répondra dans les 48 heures pendant les heures normales d'ouverture.</p>
                                 <h4 className="phone-number"><a href="mailto:info@example.com">info@example.com</a></h4>
                             </div>
                         </div>
@@ -55,8 +55,8 @@ const Contact = () => {
             <div className="section section-padding bg-color-dark overflow-hidden">
                 <div className="container">
                     <SectionTitle 
-                        subtitle="Find Us"
-                        title="Our office"
+                        subtitle="Trouvez nous"
+                        title="Notre bureau"
                         description=""
                         textAlignment="heading-light-left"
                         textColor=""

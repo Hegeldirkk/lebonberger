@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaAngleDown } from "react-icons/fa";
+//import { FaAngleDown } from "react-icons/fa";
 
 
 const Nav = () => {
     return (
         <nav className="mainmenu-nav">
             <ul className="mainmenu">
-                <li className="menu-item-has-children">
-                    <Link to="#">Digital Agency <FaAngleDown /> </Link>
+            <li><Link to="/">Accueil</Link></li>
+            <li><Link to="/#banner">Quelques palettes</Link></li>
+                {/*<li className="menu-item-has-children">
+                    <Link to="#">Accueil<FaAngleDown /> </Link>
                     <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/digital-agency"}>Digital Agency</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/creative-agency"}>Creative Agency</Link></li>
@@ -53,19 +55,19 @@ const Nav = () => {
                         <li><Link to={process.env.PUBLIC_URL + "/404"}>404 Page</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/coming-soon"}>Coming Soon</Link></li>
                     </ul>
-                </li>
-                <li className="menu-item-has-children">
+                </li>*/}
+                {/*<li className="menu-item-has-children">
                     <Link to="#">Blog <FaAngleDown /></Link>
                     <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/1"}>Standard Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/2"}>Gallery Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/3"}>Video Post</Link></li>
-                        {/* <li><Link to={process.env.PUBLIC_URL + "#"}>Audio Post</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "#"}>Quote Post</Link></li> */}
+                         <li><Link to={process.env.PUBLIC_URL + "#"}>Audio Post</Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + "#"}>Quote Post</Link></li> 
                     </ul>
-                </li>
-                <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
+                </li>*/}
+                <li><Link to={process.env.PUBLIC_URL + "/contact"}>Nous contacter</Link></li>
             </ul>
         </nav>
     )

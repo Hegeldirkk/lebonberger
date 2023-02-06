@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLightbulb, FaMoon } from 'react-icons/fa';
+import { FaLightbulb } from 'react-icons/fa';
 
 
 const ColorSwitcher = () => {
@@ -12,7 +12,7 @@ const ColorSwitcher = () => {
         <div className="my_switcher d-none d-lg-block">
             <button onClick={switchColor}>
                 <span className="setColor dark"><FaLightbulb /></span>
-                <span className="setColor light"><FaMoon /></span>
+                <span className="setColor light"><FaLightbulb /></span>
             </button>
         </div>
     )

@@ -57,8 +57,8 @@ const App = () => {
     <Router>
 		<ScrollToTop>
 			<Routes>
-				<Route path={process.env.PUBLIC_URL + "/"} element={<ComingSoon />}/>
-				<Route path={process.env.PUBLIC_URL + "/home-stratup"} element={<HomeStartup />}/>
+				<Route path={process.env.PUBLIC_URL + "/coming-soon"} element={<ComingSoon />}/>
+				<Route path={process.env.PUBLIC_URL + "/"} element={<HomeStartup />}/>
 
 				<Route path={process.env.PUBLIC_URL + "/digital-agency"} element={<DigitalAgency />}/>
 				<Route path={process.env.PUBLIC_URL + "/creative-agency"} element={<CreativeAgency />}/>

@@ -11,13 +11,13 @@ const PrivacyPolicy = () => {
 
     return (
         <>
-            <SEO title="Privacy Policy" />
+            <SEO title="politique de confidentialitP" />
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
                 <BreadCrumbOne 
-                title="Privacy Policy"
-                page="Privacy Policy"
+                title="Politique de confidentialité"
+                page="Ppolitique de confidentialité"
                 />
                 <div className="section-padding privacy-policy-area">
                     <div className="container">
@@ -25,12 +25,12 @@ const PrivacyPolicy = () => {
                             <div className="col-lg-10">
                                 <div className="privacy-policy-content">
                                 <div className="section-title">
-                                    <h5 className="title">This Privacy policy was published on September 10th, 2021.</h5>
+                                    <h5 className="title">Cette politique de confidentialité a été publiée le:::::::</h5>
                                 </div>
-                                <h4>GDPR compliance</h4>
+                                <h4>Conformité RGPD</h4>
                                 <p>Sed nec ex vitae justo molestie maximus. Sed ut neque sit amet libero rhoncus tempor. Fusce tempor quam libero, varius congue magna tempus vitae. Donec a justo nec elit sagittis sagittis eu a ante. Vivamus rutrum elit odio. Donec gravida id ligula ut faucibus. Aenean convallis ligula orci, ut congue nunc sodales ut. In ultrices elit malesuada velit ornare, eget dictum velit hendrerit. Praesent bibendum blandit lectus, eu congue neque mollis in. Pellentesque metus diam, hendrerit in purus fringilla, accumsan bibendum sapien. Nunc non facilisis sem.
                                 </p>
-                                <h4>About Abstrak</h4>
+                                <h4>À propos LeBonBerger</h4>
                                 <p>In dapibus, nibh sit amet pulvinar convallis, massa nunc tincidunt nunc, a pretium risus nulla ut dui. Ut ut condimentum tellus, dapibus volutpat est. Integer ullamcorper iaculis blandit. Pellentesque id tempus urna. Quisque luctus cursus imperdiet. <a href="mailto:example@abstrak.com">example@abstrak.com</a> </p>
                                 <h4>When we collect personal data about you</h4>
                                 <ul>
@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
                                     <li>Whether you’re kicking off a new campaign.</li>
                                     <li>Habitasse per feugiat aliquam luctus accumsan curae</li>
                                 </ul>
-                                <h4>Why we collect and use personal data</h4>
+                                <h4>Pourquoi nous collectons et utilisons des données personnelles</h4>
                                 <p className="mb--20">Sed nec ex vitae justo molestie maximus. Sed ut neque sit amet libero rhoncus tempor. Fusce tempor quam libero, varius congue magna tempus vitae. Donec a justo nec elit sagittis sagittis eu a ante. Vivamus rutrum elit odio. Donec gravida id ligula ut faucibus. Aenean convallis ligula orci, ut congue nunc sodales ut. In ultrices elit malesuada velit ornare, eget dictum velit hendrerit. Praesent bibendum blandit lectus, eu congue neque mollis in. Pellentesque metus diam, hendrerit in purus fringilla, accumsan bibendum sapien. Nunc non facilisis sem.</p>
                                 <ul>
                                     <li>Nulla facilisi. Sed pulvinar nec purus eu sollicitudin. Quisque ut tempus quam, in cursus eros.</li>
@@ -48,7 +48,7 @@ const PrivacyPolicy = () => {
                                     <li>Aliquam lacus nisi, lobortis non diam eget, malesuada bibendum justo. Praesent fringilla sagittis ex, ac molestie ipsum ullamcorper a.</li>
                                     <li>Vestibulum nulla tortor, aliquam at porta in, hendrerit sed nibh.</li>
                                 </ul>
-                                <h4>Type of personal data collected</h4>
+                                <h4>Type de données personnelles collectées</h4>
                                 <p>In ultrices elit malesuada velit ornare, eget dictum velit hendrerit. Praesent bibendum blandit lectus, eu congue neque mollis in. Pellentesque metus diam, hendrerit in purus fringilla, accumsan bibendum sapien. Nunc non facilisis sem.</p>
                                 <h4>Information we collect automatically</h4>
                                 <p>Etiam vel mi vel neque mattis iaculis. Proin vitae consequat augue, vel porta tellus. Nullam tincidunt ac lorem eu lacinia. Praesent ac diam id odio elementum efficitur. Suspendisse sit amet urna vitae neque tempor pellentesque. Aenean ut dapibus urna. Pellentesque neque nulla, interdum vitae rhoncus at, pretium id arcu. Etiam sodales lectus at convallis vestibulum. Quisque non neque augue. Nullam condimentum nulla felis, nec suscipit augue congue ac.</p>
@@ -63,7 +63,7 @@ const PrivacyPolicy = () => {
                                 <p>We store personal data for as long as we find it necessary to fulfill the purpose for which the personal data was collected, while also considering our need to answer your queries or resolve possible problems. This helps us to comply with legal requirements under applicable laws, to attend to any legal claims/complaints, and for safeguarding purposes.</p>
                                 <h4>Hotjar’s privacy policy</h4>
                                 <p>Pellentesque vestibulum venenatis iaculis. Aliquam viverra sodales ultrices. Quisque sed purus id massa consequat consectetur eu vel lorem. Maecenas lectus velit, cursus quis orci non, laoreet hendrerit mi. Nulla vitae ipsum fringilla, placerat metus eu, malesuada velit. Quisque viverra risus ex. Aenean commodo vestibulum efficitur. Nullam ligula orci, aliquet sed luctus vel, luctus vel dui. Sed pulvinar, ipsum at mattis imperdiet, diam augue tempor diam, sed porttitor odio elit ut ante. In posuere mi at mi pellentesque ornare sit amet gravida nisi. Praesent ac blandit odio. Curabitur iaculis ante elit, et imperdiet leo mollis at.</p>
-                                <h4>Changes to this Privacy Policy</h4>
+                                <h4>Modifications de cette politique de confidentialité</h4>
                                 <p>Integer eu ornare lectus, ornare ullamcorper tellus. Morbi in urna a justo dignissim luctus. Nam sagittis ante ut lorem feugiat, sed consectetur ligula lacinia. Vestibulum quis mauris sed lectus pretium dictum sed vitae orci. Vestibulum facilisis facilisis mauris non maximus. Nam tristique ipsum egestas, suscipit orci sit amet, rutrum ante. Proin in felis pellentesque, ullamcorper enim vel, molestie ipsum. </p>
                                 </div>
                             </div>

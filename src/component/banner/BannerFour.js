@@ -6,14 +6,14 @@ import Tilty from 'react-tilty';
 
 const BannerFour = () => {
     return (
-        <div className="banner banner-style-4">
+        <div className="banner banner-style-4" id="banner">
             <div className="container">
                 <div className="banner-content">
                     <h1 className="title">L'évangélisation, avec des outils adaptées</h1>
                     <p>Une application adaptée pour le suivi 
                         des nouvelles<br></br> âmes converties.</p>
                     <div>
-                        <Link to={process.env.PUBLIC_URL + "/project-grid-one"} className="axil-btn btn-fill-primary btn-large">Telecharger l'application</Link>
+                        <Link to={process.env.PUBLIC_URL + "/"} className="axil-btn btn-fill-primary btn-large">Telecharger l'application</Link>
                     </div>
                 </div>
                 <div className="banner-thumbnail">

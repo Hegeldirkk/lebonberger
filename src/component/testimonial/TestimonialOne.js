@@ -7,8 +7,8 @@ const TestimonialOne = () => {
         <div className="section section-padding">
             <div className="container">
                 <SectionTitle 
-                    subtitle="Testimonial"
-                    title="From getting started"
+                    subtitle="Temoignages"
+                    title="Certaines églises vous parlent de l'app LeBonBerger"
                     description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
                     textAlignment="heading-left"
                     textColor=""

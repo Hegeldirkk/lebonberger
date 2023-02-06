@@ -19,7 +19,7 @@ const ProjectFour = () => {
             />
             <div className="project-add-banner">
                 <div className="content">
-                    <span className="subtitle">branding, design</span>
+                    <span className="subtitle">Eglise, évangélisation</span>
                     <h3 className="title">LeBonBerger- une plateforme qui permet le suivi efficace des âmes</h3>
                     <div className="brand-logo">
                         <img src={process.env.PUBLIC_URL + "/images/logo3.png"} alt="lebonberger" />
