@@ -60,32 +60,32 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/coming-soon"} element={<ComingSoon />}/>
 				<Route path={process.env.PUBLIC_URL + "/"} element={<HomeStartup />}/>
 
-				<Route path={process.env.PUBLIC_URL + "/digital-agency"} element={<DigitalAgency />}/>
+				{/*<Route path={process.env.PUBLIC_URL + "/digital-agency"} element={<DigitalAgency />}/>
 				<Route path={process.env.PUBLIC_URL + "/creative-agency"} element={<CreativeAgency />}/>
 				<Route path={process.env.PUBLIC_URL + "/personal-portfolio"} element={<PersonalPortfolio />}/>
 				<Route path={process.env.PUBLIC_URL + "/splash"} element={<Splash />}/>
-				<Route path={process.env.PUBLIC_URL + "/corporate-agency"} element={<CorporateAgency />}/>
+				<Route path={process.env.PUBLIC_URL + "/corporate-agency"} element={<CorporateAgency />}/> */}
 
-				{/* Blogs */}
+				{/* Blogs
 				<Route path={process.env.PUBLIC_URL + "/blog-grid/"} element={<BlogGridView />}/>
 				<Route path={process.env.PUBLIC_URL + "/category/:slug"} element={<BlogCategory />}/>
 				<Route path={process.env.PUBLIC_URL + "/archive/:slug"} element={<BlogArchive />}/>
-				<Route path={process.env.PUBLIC_URL + "/blog-details/:id"} element={<BlogDetails />}/>
+				<Route path={process.env.PUBLIC_URL + "/blog-details/:id"} element={<BlogDetails />}/> */}
 
-				{/* Service */}
+				{/* Service 
 				<Route path={process.env.PUBLIC_URL + "/service-one/"} element={<ServiceOne />}/>
 				<Route path={process.env.PUBLIC_URL + "/service-two/"} element={<ServiceTwo />}/>
-				<Route path={process.env.PUBLIC_URL + "/service-details/:slug"} element={<ServiceDetails />}/>
+				<Route path={process.env.PUBLIC_URL + "/service-details/:slug"} element={<ServiceDetails />}/>*/}
 
-				{/* Project  */}
+				{/* Project 
 				<Route path={process.env.PUBLIC_URL + "/project-grid-one"} element={<ProjectGridOne />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-grid-two"} element={<ProjectGridTwo />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-grid-three"} element={<ProjectGridThree />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-width-one"} element={<ProjectGridFour />}/>
 				<Route path={process.env.PUBLIC_URL + "/project-width-two"} element={<ProjectGridFive />}/>
-				<Route path={process.env.PUBLIC_URL + "/project-details/:slug"} element={<ProjectDetails />}/>
+				<Route path={process.env.PUBLIC_URL + "/project-details/:slug"} element={<ProjectDetails />}/> */}
 
-				{/* Pages  */}
+				{/* Pages 
 				<Route path={process.env.PUBLIC_URL + "/about-us"} element={<AboutUs />}/>
 				<Route path={process.env.PUBLIC_URL + "/our-office"} element={<OurOffice />}/>
 				<Route path={process.env.PUBLIC_URL + "/our-clients"} element={<OurClients />}/>
@@ -95,7 +95,7 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/case-details/:slug"} element={<CaseDetails />}/>
 				<Route path={process.env.PUBLIC_URL + "/testimonials"} element={<Testimonials />}/>
 				<Route path={process.env.PUBLIC_URL + "/pricing-table"} element={<PricingTable />}/>
-				<Route path={process.env.PUBLIC_URL + "/typography"} element={<Typography />}/>
+				<Route path={process.env.PUBLIC_URL + "/typography"} element={<Typography />}/> */}
 				<Route path={process.env.PUBLIC_URL + "/contact"} element={<Contact />}/>
 				<Route path={process.env.PUBLIC_URL + "/404"} element={<ErrorPage />}/>
 				<Route path={process.env.PUBLIC_URL + "/coming-soon"} element={<ComingSoon />}/>
